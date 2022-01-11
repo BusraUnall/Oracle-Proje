@@ -1,0 +1,108 @@
+--------------------------------------------------------
+--  File created - Salý-Ocak-11-2022   
+--------------------------------------------------------
+--------------------------------------------------------
+--  DDL for Table URUNLER
+--------------------------------------------------------
+
+  CREATE TABLE "SYSTEM"."URUNLER" 
+   (	"URUN_NO" NUMBER(5,0), 
+	"GRUP_NO" NUMBER(3,0), 
+	"URUN_ISIM" VARCHAR2(50 BYTE), 
+	"MARKA" VARCHAR2(25 BYTE), 
+	"FIYAT" FLOAT(126), 
+	"GRAMAJ" NUMBER(6,0)
+   ) PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 
+ NOCOMPRESS LOGGING
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "SYSTEM" ;
+REM INSERTING into SYSTEM.URUNLER
+SET DEFINE OFF;
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('94022','239','Burgu makarna','Arbella','5,75','500');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('66915','36','Dana kýyma','Sultan','38,9','400');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('85782','36','Piliç bonfile','Erpiliç','52,9','750');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('88670','239','Spagetti','Barilla','6,9','500');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('51539','239','Baldo pirinç','Yayla','24,75','1000');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('34358','239','Pilavlýk bulgur','Yayla','17,5','1000');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('49162','239','Nohut','Reis','31,75','1000');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('39237','239','Mýsýr','Yayla','9,35','500');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('89960','239','Domates salçasý','Tat','14,95','830');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('55531','239','Un','Sinangil','23,95','2000');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('54070','239','Ayçiçek yaðý','Yudum','72,9','2000');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('50500','239','Ayçiçek yaðý','Komili','40,9','1000');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('64452','239','Tereyaðý','Ýçim','57,25','500');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('33341','239','Toz þeker','Irmak','27,75','3000');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('56617','239','Kakao','Dr. Oetker','5,65','50');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('17382','438','Simit','La Lorraine','3','100');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('77932','438','Tost ekmeði','Uno','8,95','350');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('47951','438','Cevizli kurabiye','Uno','29,9','250');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('98395','438','Çikolatalý pasta','Uzay','50','800');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('51951','294','Mandalina',null,'10,95','1000');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('31093','294','Golden elma',null,'7,94','750');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('21063','294','Patates',null,'17,95','2000');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('77318','294','Maydanoz',null,'3','75');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('68456','582','Su','Erikli','7,85','5000');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('82404','582','Kola','Coca-Cola','6,45','1000');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('68801','582','Soda','Kýzýlay','1,5','200');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('10388','582','Karýþýk meyve suyu','Meysu','10,85','1000');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('30051','582','Ayran','Eker','12,6','1000');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('91923','582','Çay','Lipton','21,9','500');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('29783','124','Süt','Sütaþ','11,7','1000');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('88845','124','Beyaz peynir','Sütaþ','34,75','500');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('91591','124','Kaþar peyniri','Ýçim','57,95','700');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('65452','124','15''li yumurta','Sarbey','31,7',null);
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('51173','124','Kangal sucuk','þahin','48,9','180');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('84273','124','Kuru sele zeytin','Hertana','44,9','400');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('60154','124','Mýsýr gevreði','Coco Pops','14,95','450');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('51655','124','Bal','Balparmak','63,9','460');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('61571','304','Antep fýstýklý çikolata','Ülker','11','65');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('98957','304','Bitter çikolata','Nestle','6,45','60');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('69416','304','Çilekli gofret','Ülker','5,2','114');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('93126','304','Peynirli cips','Cheetos','2,1','41');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('44816','304','Ay çekirdeði','Tadým','9','180');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('83062','304','Tuzlu fýndýk','Tadým','19','130');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('70587','36','Dana kuþbaþý','Sultan','43,9','400');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('74917','637','Çamaþýr suyu','Domestos','21,9','1850');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('21315','637','Banyo spreyi','ACE','20,9','700');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('13428','637','Temizlik bezi (3''lü)','Vileda','15,9',null);
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('31111','637','Sünger (3''lü)','Smarter','11,95',null);
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('97794','637','Toz deterjan','Omo','18,99','1500');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('17820','637','Yumuþatýcý','Vernel','29,99','1440');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('35153','637','Tuvalet kaðýdý (12''li)','Selpak','58,8',null);
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('46167','637','Islak mendil','Activex','15,55',null);
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('58801','637','Bulaþýk deterjaný','Pril','21,9','1306');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('15781','190','Sabun (4''lü)','Duru','20,9','600');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('89420','190','Diþ macunu','Signal','15,95','120');
+Insert into SYSTEM.URUNLER (URUN_NO,GRUP_NO,URUN_ISIM,MARKA,FIYAT,GRAMAJ) values ('76114','190','Þampuan','Elidor','36,9','650');
+--------------------------------------------------------
+--  DDL for Index URUNLER_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "SYSTEM"."URUNLER_PK" ON "SYSTEM"."URUNLER" ("URUN_NO") 
+  PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS 
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "SYSTEM" ;
+--------------------------------------------------------
+--  Constraints for Table URUNLER
+--------------------------------------------------------
+
+  ALTER TABLE "SYSTEM"."URUNLER" MODIFY ("URUN_NO" NOT NULL ENABLE);
+  ALTER TABLE "SYSTEM"."URUNLER" MODIFY ("GRUP_NO" NOT NULL ENABLE);
+  ALTER TABLE "SYSTEM"."URUNLER" MODIFY ("URUN_ISIM" NOT NULL ENABLE);
+  ALTER TABLE "SYSTEM"."URUNLER" MODIFY ("FIYAT" NOT NULL ENABLE);
+  ALTER TABLE "SYSTEM"."URUNLER" ADD CONSTRAINT "URUNLER_PK" PRIMARY KEY ("URUN_NO")
+  USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS 
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "SYSTEM"  ENABLE;
+--------------------------------------------------------
+--  Ref Constraints for Table URUNLER
+--------------------------------------------------------
+
+  ALTER TABLE "SYSTEM"."URUNLER" ADD FOREIGN KEY ("GRUP_NO")
+	  REFERENCES "SYSTEM"."URUN_GRUPLARI" ("GRUP_NO") ENABLE;
